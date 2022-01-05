@@ -1,0 +1,66 @@
+.evenbox {
+  display: flex;
+}
+
+.sec_count {
+  width: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.sub,
+.hr {
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2px 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: text;
+  margin-right: 5px;
+}
+.gradient-text {
+  color: rgb(161, 163, 200) !important;
+}
+.additm,
+.rmv {
+  /* width: 100px; */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2px 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.next {
+  text-align: center;
+}
+
+.subhr {
+  margin-bottom: 8px;
+}
